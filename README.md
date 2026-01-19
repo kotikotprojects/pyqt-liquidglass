@@ -1,6 +1,7 @@
 # pyqt-liquidglass
 
-[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://badge.fury.io/py/pyqt-liquidglass.svg)](https://pypi.org/project/pyqt-liquidglass/)
+[![Python Version](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
 
 macOS Liquid Glass effects for PySide6 and PyQt6.
