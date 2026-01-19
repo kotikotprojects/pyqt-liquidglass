@@ -1,0 +1,6 @@
+[environment]
+python = ".venv"
+
+[rules]
+unresolved-import = "ignore"
+unresolved-attribute = "ignore"
