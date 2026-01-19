@@ -37,6 +37,7 @@ keywords = [
 
 [project.urls]
 Homepage = "https://git.kotikot.com/lib/pyqt-liquidglass"
+Documentation = "https://pyqt-liquidglass.readthedocs.io"
 Repository = "https://github.com/kotikotprojects/pyqt-liquidglass"
 
 [build-system]

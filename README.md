@@ -3,6 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/pyqt-liquidglass.svg)](https://pypi.org/project/pyqt-liquidglass/)
 [![Python Version](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.md)
+[![Documentation](https://readthedocs.org/projects/pyqt-liquidglass/badge/?version=latest)](https://pyqt-liquidglass.readthedocs.io)
 
 macOS Liquid Glass effects for PySide6 and PyQt6.
 
@@ -79,6 +80,10 @@ glass.apply_glass_to_window(window, options=options)
 - PySide6 or PyQt6
 
 Tested with PySide6. PyQt6 should work but is not explicitly tested.
+
+## Documentation
+
+Full documentation: [pyqt-liquidglass.readthedocs.io](https://pyqt-liquidglass.readthedocs.io)
 
 ## License
 
