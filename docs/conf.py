@@ -8,7 +8,8 @@ import sys
 import tomllib
 
 sys.path.insert(0, os.path.abspath("."))
-sys.path.insert(0, os.path.abspath("../."))
+sys.path.insert(0, os.path.abspath(".."))
+sys.path.insert(0, os.path.abspath("../src"))
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -30,6 +31,17 @@ extensions = [
 
 templates_path = ["_templates"]
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+
+autodoc_mock_imports = [
+    "objc",
+    "AppKit",
+    "Cocoa",
+    "Foundation",
+    "Quartz",
+    "PyObjCTools",
+    "PySide6",
+    "PyQt6",
+]
 
 autodoc_default_options = {
     "members": True,
